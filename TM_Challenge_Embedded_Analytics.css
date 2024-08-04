@@ -1,0 +1,40 @@
+body {
+	padding-bottom: 30px;
+}
+
+div.qvplaceholder {
+	padding: 30px 10px 10px 10px;
+	height: 500px;
+}
+
+
+div.qvplaceholdersm {
+	padding: 30px 10px 10px 10px;
+	height: 300px;
+}
+
+div.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 45px 45px 0;
+}
+
+div.qvobject,
+div.qvobjectsm {
+	flex: 1 1 auto;
+	height: 300px;
+	min-width: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-fixed-top {
+	position: relative;
+	z-index: 100;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
